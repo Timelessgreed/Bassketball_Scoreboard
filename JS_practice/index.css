@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    color: rgb(3, 21, 48);
+}
+
+.wrapper{
+    background-image: url(img/christian-rebero-twahirwa-ggtFONGaWTo-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 600px;
+    gap: 20px;
+}
+.home-wrapper{
+    border: none;
+    padding: 5px 10px;
+    background-color: rgba(255, 28, 28, 0.8);
+    padding-bottom: 30px;
+    color: azure;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 5px;
+}
+.guest-wrapper{
+    border: none;
+    padding: 5px 10px;
+    background-color: rgba(255, 28, 28, 0.8);
+    padding-bottom: 30px;
+    color: azure;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 5px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    font-style: italic;
+}
+
+button{
+    padding: 5px 40px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 250, 250);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 5px black;
+    font-size: 17px;
+    cursor: pointer;
+}
+button:hover{
+background-color: rgb(119, 161, 238);
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 40px;
+    font-style: italic;
+    border: 1px solid rgb(2, 1, 1);
+    background-color: rgba(27, 26, 26, 0.9);
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 2px 1px 1px black;
+}
